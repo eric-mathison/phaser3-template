@@ -1,39 +1,39 @@
 {
-  "name": "phaser3-template",
-  "version": "1.0.0",
-  "description": "A Modern Phaser 3 Template",
-  "main": "src/index.js",
-  "scripts": {
-    "build": "webpack --config webpack/prod.js ",
-    "start": "webpack-dev-server --config webpack/dev.js --open"
-  },
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/eric-mathison/phaser3-template.git"
-  },
-  "author": "Eric Mathison <eric.l.mathison@gmail.com>",
-  "license": "MIT",
-  "licenseUrl": "http://www.opensource.org/licenses/mit-license.php",
-  "bugs": {
-    "url": "https://github.com/eric-mathison/phaser3-template/issues"
-  },
-  "homepage": "https://github.com/eric-mathison/phaser3-template#readme",
-  "devDependencies": {
-    "@babel/core": "^7.2.2",
-    "@babel/preset-env": "^7.2.3",
-    "babel-loader": "^8.0.5",
-    "clean-webpack-plugin": "^1.0.0",
-    "copy-webpack-plugin": "^9.0.1",
-    "file-loader": "^3.0.1",
-    "html-webpack-plugin": "^3.2.0",
-    "raw-loader": "^1.0.0",
-    "terser-webpack-plugin": "^1.4.3",
-    "webpack": "^5.41.1",
-    "webpack-cli": "^3.2.1",
-    "webpack-dev-server": "^3.11.2",
-    "webpack-merge": "^4.2.1"
-  },
-  "dependencies": {
-    "phaser": "^3.18.1"
-  }
+    "name": "phaser3-template",
+    "version": "1.0.0",
+    "description": "A Modern Phaser 3 Template",
+    "main": "src/index.js",
+    "scripts": {
+        "build": "webpack --config webpack/prod.js ",
+        "start": "webpack serve --config webpack/dev.js --open"
+    },
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/eric-mathison/phaser3-template.git"
+    },
+    "author": "Eric Mathison <eric.l.mathison@gmail.com>",
+    "license": "MIT",
+    "licenseUrl": "http://www.opensource.org/licenses/mit-license.php",
+    "bugs": {
+        "url": "https://github.com/eric-mathison/phaser3-template/issues"
+    },
+    "homepage": "https://github.com/eric-mathison/phaser3-template#readme",
+    "devDependencies": {
+        "@babel/core": "^7.2.2",
+        "@babel/preset-env": "^7.2.3",
+        "babel-loader": "^8.0.5",
+        "clean-webpack-plugin": "^1.0.0",
+        "copy-webpack-plugin": "^9.0.1",
+        "file-loader": "^3.0.1",
+        "html-webpack-plugin": "^5.3.2",
+        "raw-loader": "^1.0.0",
+        "terser-webpack-plugin": "^1.4.3",
+        "webpack": "^5.41.1",
+        "webpack-cli": "^4.7.2",
+        "webpack-dev-server": "^3.11.2",
+        "webpack-merge": "^4.2.1"
+    },
+    "dependencies": {
+        "phaser": "^3.18.1"
+    }
 }

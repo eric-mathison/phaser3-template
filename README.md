@@ -11,14 +11,11 @@ All Assets should be stored in the `/assets/` directory. This can include images
 
 ## Available Commands
 
-| Command | Description |
-|---------|-------------|
-| `npm install` | Install project dependencies |
-| `npm start` | Build project and open web server running project |
+| Command         | Description                                                                     |
+| --------------- | ------------------------------------------------------------------------------- |
+| `npm install`   | Install project dependencies                                                    |
+| `npm start`     | Build project and open web server running project                               |
 | `npm run build` | Builds code bundle with production settings (minification, uglification, etc..) |
-
-
-Alternatively you can use `yarn start` and `yarn build`.
 
 ## Writing Code
 
@@ -29,22 +26,25 @@ After starting the development server with `npm start`, you can edit any files i
 ## Customizing Template
 
 ### Babel
+
 You can write modern ES6+ JavaScript and Babel will transpile it to a version of JavaScript that you
 want your project to support. The targeted browsers are set in the `.babelrc` file and the default currently
 targets all browsers with total usage over "0.25%" but excludes IE11 and Opera Mini.
 
-  ```
-  "browsers": [
-    ">0.25%",
-    "not ie 11",
-    "not op_mini all"
-  ]
-  ```
+```
+"browsers": [
+  ">0.25%",
+  "not ie 11",
+  "not op_mini all"
+]
+```
 
 ### Webpack
+
 If you want to customize your build, such as adding a new webpack loader or plugin (i.e. for loading CSS or fonts), you can modify the files in the `/webpack/` directory. `common.js` controls are shared environments. `dev.js` and `prod.js` are available for each specific environment.
 
 ## Deploying Code
+
 After you run the `npm run build` command, your code will be built into a single bundle located at
 `dist/bundle.min.js` along with any other assets you project depended.
 
