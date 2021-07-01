@@ -1,6 +1,6 @@
 {
     "name": "phaser3-template",
-    "version": "1.0.0",
+    "version": "2.0.0",
     "description": "A Modern Phaser 3 Template",
     "main": "src/index.js",
     "scripts": {
